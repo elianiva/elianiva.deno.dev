@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[elianiva.me]]></title>
+    <description><![CDATA[Elianiva's Personal site]]></description>
+    <link>https://elianiva.me</link>
+    <atom:link href="https://elianiva.me/feed.xml" rel="self" type="application/rss+xml" />
+    <generator>Sapper</generator>
+    <lastBuildDate>Wed, 31 Mar 2021 04:19:24 GMT</lastBuildDate>
+    
+    <item>
+      <title>Utterances - Comment section that just works</title>
+      <description><![CDATA[I've been wanting to add a comment section to my website because why not, and I've found the best solution for me]]></description>
+      <link>https://elianiva.me/post/comments-widget-using-utterance</link>
+      <guid isPermaLink="false">https://elianiva.me/post/comments-widget-using-utterance</guid>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>I tried Svelte-Kit, it was Unsurprisingly good</title>
+      <description><![CDATA[I've run out of my patience waiting for the stable release and got too hyped for it]]></description>
+      <link>https://elianiva.me/post/trying-out-sveltekit</link>
+      <guid isPermaLink="false">https://elianiva.me/post/trying-out-sveltekit</guid>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My setup for Neovim's builtin LSP client</title>
+      <description><![CDATA[A post where I explain about my setup for Neovim's builtin LSP]]></description>
+      <link>https://elianiva.me/post/my-nvim-lsp-setup</link>
+      <guid isPermaLink="false">https://elianiva.me/post/my-nvim-lsp-setup</guid>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>How I made my Neovim statusline in Lua</title>
+      <description><![CDATA[A post where I explain how I made my custom statusline in Lua]]></description>
+      <link>https://elianiva.me/post/neovim-lua-statusline</link>
+      <guid isPermaLink="false">https://elianiva.me/post/neovim-lua-statusline</guid>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>I rebuild my site using Sapper and MDsveX from scratch</title>
+      <description><![CDATA[A post where I explain why I migrate my website using Svelte/Sapper]]></description>
+      <link>https://elianiva.me/post/i-rebuild-my-site-using-sapper</link>
+      <guid isPermaLink="false">https://elianiva.me/post/i-rebuild-my-site-using-sapper</guid>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My Experience Trying Out Svelte For The First Time</title>
+      <description><![CDATA[Phew lads, I finally tried svelte after a while and boi oh boi do I love it]]></description>
+      <link>https://elianiva.me/post/my-experience-with-svelte</link>
+      <guid isPermaLink="false">https://elianiva.me/post/my-experience-with-svelte</guid>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>How I Remember Japanese Weekdays</title>
+      <description><![CDATA[A post where I try to explain how I remember Japanese weekdays in my own weird way.]]></description>
+      <link>https://elianiva.me/post/how-i-remember-heijitsu</link>
+      <guid isPermaLink="false">https://elianiva.me/post/how-i-remember-heijitsu</guid>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Making You Own Custom Startpage For Chrome</title>
+      <description><![CDATA[An attempt of creating a custom startpage so that I don't get bored whenever I open a new tab on chrome.]]></description>
+      <link>https://elianiva.me/post/chrome-custom-newtab</link>
+      <guid isPermaLink="false">https://elianiva.me/post/chrome-custom-newtab</guid>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Prettify your screenshot using imagemagick</title>
+      <description><![CDATA[Wanna make your screenshot a bit more fancy? Say no more, Imagemagick got you covered]]></description>
+      <link>https://elianiva.me/post/prettify-screenshot-using-imagemagick</link>
+      <guid isPermaLink="false">https://elianiva.me/post/prettify-screenshot-using-imagemagick</guid>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Using github actions for SSG deployment</title>
+      <description><![CDATA[Utilizing github action to automate boring stuff which is building and deploying SSG manually]]></description>
+      <link>https://elianiva.me/post/github-actions</link>
+      <guid isPermaLink="false">https://elianiva.me/post/github-actions</guid>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>ES6 high order array methods explained</title>
+      <description><![CDATA[A post where I try to explain ES6 array methods in a simplest way possible that I could think of.]]></description>
+      <link>https://elianiva.me/post/es6-array-methods</link>
+      <guid isPermaLink="false">https://elianiva.me/post/es6-array-methods</guid>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Simple TUI-based Rest Client for (Neo)vim</title>
+      <description><![CDATA[A post where I try to find a TUI alternative to Postman. In other word, REST client but in TUI]]></description>
+      <link>https://elianiva.me/post/rest-client-for-vim</link>
+      <guid isPermaLink="false">https://elianiva.me/post/rest-client-for-vim</guid>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Setting up Japanese input method on Linux</title>
+      <description><![CDATA[Installing fcitx and mozc for Japanese input method so you can type 日本語 on Linux]]></description>
+      <link>https://elianiva.me/post/japanese-input-method-on-linux</link>
+      <guid isPermaLink="false">https://elianiva.me/post/japanese-input-method-on-linux</guid>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My Setup Using Suckless Software</title>
+      <description><![CDATA[A post where I fully explain about my setup using suckless's softwares]]></description>
+      <link>https://elianiva.me/post/my-suckless-setup</link>
+      <guid isPermaLink="false">https://elianiva.me/post/my-suckless-setup</guid>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My /comfy/ and less bloated spotify-tui setup</title>
+      <description><![CDATA[Since I use my terminal quite often, why don't I use spotify inside my terminal as well ツ]]></description>
+      <link>https://elianiva.me/post/my-spotify-tui-setup</link>
+      <guid isPermaLink="false">https://elianiva.me/post/my-spotify-tui-setup</guid>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>I redesigned my website because why not</title>
+      <description><![CDATA[A post where I explain about my site redesign to give it a bit more fresher look]]></description>
+      <link>https://elianiva.me/post/site-redesign</link>
+      <guid isPermaLink="false">https://elianiva.me/post/site-redesign</guid>
+      <pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My impression on two border window manager</title>
+      <description><![CDATA[My impression of a keyboard oriented stacking window manager called Two Border Window Manager or 2BWM]]></description>
+      <link>https://elianiva.me/post/2bwm</link>
+      <guid isPermaLink="false">https://elianiva.me/post/2bwm</guid>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>My impression of Lenovo Thinkpad X220</title>
+      <description><![CDATA[I finally became one of those Linux users, the one who has old Thinkpad with them.]]></description>
+      <link>https://elianiva.me/post/thinkpad-x220</link>
+      <guid isPermaLink="false">https://elianiva.me/post/thinkpad-x220</guid>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Why I use Linux instead of other OS</title>
+      <description><![CDATA[A post where I try to explain why I use this beautiful and awesome operating system called Linux]]></description>
+      <link>https://elianiva.me/post/why-i-use-linux</link>
+      <guid isPermaLink="false">https://elianiva.me/post/why-i-use-linux</guid>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Defx, A Dark Powered File Explorer</title>
+      <description><![CDATA[Trying out yet another plugin for neovim called defx.nvim, it's dark powered! At least that's what it says on the readme]]></description>
+      <link>https://elianiva.me/post/defx-nvim</link>
+      <guid isPermaLink="false">https://elianiva.me/post/defx-nvim</guid>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>Making your own statusline in (Neo)vim</title>
+      <description><![CDATA[A post where I made my own lightsaber. I mean, my own vim's statusline to make my vim looks even more personalised]]></description>
+      <link>https://elianiva.me/post/vim-statusline</link>
+      <guid isPermaLink="false">https://elianiva.me/post/vim-statusline</guid>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>The process of making my website (Part 3)</title>
+      <description><![CDATA[Last post where I talk about my experience about how I made my website using Gatsby]]></description>
+      <link>https://elianiva.me/post/making-of-my-site-3</link>
+      <guid isPermaLink="false">https://elianiva.me/post/making-of-my-site-3</guid>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>The process of making my website (Part 2)</title>
+      <description><![CDATA[Continuation of my previous post which is me telling my experience about how I made my blog using Gatsby]]></description>
+      <link>https://elianiva.me/post/making-of-my-site-2</link>
+      <guid isPermaLink="false">https://elianiva.me/post/making-of-my-site-2</guid>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+
+    <item>
+      <title>The process of making my website (Part 1)</title>
+      <description><![CDATA[A post where I try to explain my experience of how I made my website using React and Gatsby]]></description>
+      <link>https://elianiva.me/post/making-of-my-site</link>
+      <guid isPermaLink="false">https://elianiva.me/post/making-of-my-site</guid>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
