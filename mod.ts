@@ -1,4 +1,4 @@
-import { serve, Routes } from "https://deno.land/x/sift/mod.ts";
+import { serve } from "https://deno.land/x/sift/mod.ts";
 
 const title = (route: string): string => `<title>${route}</title>`;
 const css = `
@@ -18,38 +18,47 @@ const css = `
 `;
 const h1 = (content: string): string => `<h1> ${content} </h1>`;
 const code = (content: string): string => `<code> ${content} </code>`;
-const opts = {"headers": {"content-type": "text/html; charset=utf-8"}}
+const opts = { headers: { "content-type": "text/html; charset=utf-8" } };
 
 function pageHandler(route: string): Response {
   if (route == "/") {
-    return new Response(`
+    return new Response(
+      `
       ${title(route)}
       ${css}
       ${h1("Halo!")}
       ${h1("Hello!")}
       ${h1("こんにちは!")}
-    `, opts);
+    `,
+      opts,
+    );
   }
 
   if (route == "404") {
-    return new Response(`
+    return new Response(
+      `
       ${title(route)}
       ${css}
       ${h1("404????")}
-    `, opts);
+    `,
+      opts,
+    );
   }
 
-  return new Response(`
+  return new Response(
+    `
     ${title(route)}
     ${css}
-    ${h1(`Kamu sedang ada di ${code(route)}`)}
-    ${h1(`You're currently at ${code(route)}`)}
-    ${h1(`今 ${code(route)} にいます`)}
-  `, opts)
+    ${h1(`Kamu sedang ada di ${code("/"+route)}`)}
+    ${h1(`You're currently at ${code("/"+route)}`)}
+    ${h1(`今 ${code("/"+route)} にいます`)}
+  `,
+    opts,
+  );
 }
 
 serve({
   "/": () => pageHandler("/"),
-  "/:slug": (_, { slug }: Routes) => pageHandler(slug),
+  "/:slug": (_, { slug }: any) => pageHandler(slug),
   "404": () => pageHandler("404"),
 });
